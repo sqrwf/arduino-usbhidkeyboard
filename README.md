@@ -2,7 +2,7 @@
 
 Simple keyboard library for Arduino, with support for _all_ possible USB HID keycodes. Defines keys using their Linux constant names if possible.
 
-**WARNING: This is a code dump for now, it is not run-tested or compile-tested at the moment.**
+**Status:** installs as library (manually), compile-tested, but may not satisfy "beautiful code" standards
 
 
 ## Raison d'être
@@ -15,8 +15,8 @@ Originally it was written to be used in an Nintendo Family Basic keyboard to USB
 ## Usage
 
 ```
-#include "usbhidkeyboard.h"
-#include "usbhidkeynames.h" /* optional to use defined constant names for keys (KEY_*) */
+#include <usbhidkeyboard.h>
+#include <usbhidkeynames.h> // optional to include Linux constant names for keys
 
 USBHIDKeyboard kbd;
 
