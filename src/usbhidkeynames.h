@@ -320,6 +320,7 @@ Comment legend:
 #define KEY_RIGHTALT         0x4000 //        Keyboard Right Alt
 #define KEY_RIGHTMETA        0x8000 //        Keyboard Right Meta/GUI (right windowing environment key, e.g., Windows key, Apple key, Sun Meta key)
 #define KEY_RIGHTGUI         0x8000 //           (aka "GUI key")
+#define KEY_ALTGR            0x4000 // [1]    Keyboard AltGr (on respective keyboard layouts this is the right Alt key)
 
 
-#endif // USBHIDKEYNAMES_h
+#endif // USBHIDKEYNAMES
